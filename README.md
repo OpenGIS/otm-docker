@@ -145,6 +145,7 @@ cd /scripts
 sh 00_setup_database.sh
 sh 01_download_water_polys.sh
 sh 02_import_osm_data.sh
+apt-get install python-gdal # https://github.com/lukey78/otm-docker/issues/3
 sh 03_dem_hillshade.sh
 sh 04_preprocess_osm_data.sh
 sh 05_dem_contours1.sh
